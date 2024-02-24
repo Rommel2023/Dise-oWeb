@@ -1,0 +1,19 @@
+.banner {
+    background-image: url("/imagenes/chef-min.jpg");
+    background-size: cover;
+    /* Make the background image cover the entire container */
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    /* Prevents background image from repeating */
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100vh;
+    /* Make the banner fill the entire viewport height */
+}
+
+.container {
+    padding-top: 200px;
+}
