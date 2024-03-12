@@ -1,0 +1,49 @@
+body {
+    background-image: url("/img/AdobeStock_59958917.jpeg");
+    background-size: cover;
+    /* Make the background image cover the entire container */
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100vh;
+}
+
+
+.espacio {
+    width: 600px;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.indice {
+    background-color: #6c757d;
+    /* Color de fondo */
+    color: #ffffff;
+    /* Color de texto */
+    border: 2px solid #6c757d;
+    /* Borde */
+    border-radius: 30px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    /* Espaciado interior */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transición suave */
+}
+
+.indice:hover {
+    background-color: #495057;
+    /* Cambio de color de fondo al pasar el cursor */
+    color: #ffffff;
+    /* Cambio de color de texto al pasar el cursor */
+}

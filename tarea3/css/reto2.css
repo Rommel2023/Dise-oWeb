@@ -1,0 +1,94 @@
+h1 {
+    background-color: #008cff;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+/*iconos web*/
+
+i {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+/*botones*/
+
+button {
+    border: none;
+    margin-left: 10px;
+    padding: 12px 22px;
+    border-radius: 100px;
+    background-color: #008cff;
+}
+
+#agregarBtn {
+    background-color: #008cff;
+    color: #fff;
+}
+
+#limpiarBtn {
+    background-color: #008cff;
+    color: #fff;
+}
+
+
+/*tabla*/
+
+th {
+    font-size: 18px;
+    color: #000;
+}
+
+input {
+    font-size: 20px;
+}
+
+input:hover {
+    background-color: #e4e4e4;
+    border: 2px solid #3a7aa5;
+}
+
+label {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.indice {
+    background-color: #6c757d;
+    /* Color de fondo */
+    color: #ffffff;
+    /* Color de texto */
+    border: 2px solid #6c757d;
+    /* Borde */
+    border-radius: 30px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    /* Espaciado interior */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transición suave */
+}
+
+.indice:hover {
+    background-color: #495057;
+    /* Cambio de color de fondo al pasar el cursor */
+    color: #ffffff;
+    /* Cambio de color de texto al pasar el cursor */
+}

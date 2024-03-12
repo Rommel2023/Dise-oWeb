@@ -1,0 +1,48 @@
+header {
+    background-color: #09ae00;
+}
+
+p {
+    font-size: 18px;
+}
+
+header img {
+    width: 80px;
+}
+
+input,
+select {
+    cursor: pointer;
+}
+
+.error {
+    border: #09ae00 1px;
+}
+
+footer {
+    background-color: #09ae00;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.indice {
+    background-color: #6c757d;
+    /* Color de fondo */
+    color: #ffffff;
+    /* Color de texto */
+    border: 2px solid #6c757d;
+    /* Borde */
+    border-radius: 30px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    /* Espaciado interior */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transición suave */
+}
+
+.indice:hover {
+    background-color: #495057;
+    /* Cambio de color de fondo al pasar el cursor */
+    color: #ffffff;
+    /* Cambio de color de texto al pasar el cursor */
+}

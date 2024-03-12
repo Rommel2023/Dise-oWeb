@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- ajuste de pantalla responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Reto 8</title>
+
+    <link rel="stylesheet" href="css/reto8.css">
+    <!-- CDN carga del framework bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="img/favicon.png" rel="icon">
+</head>
+
+<body>
+    <header class="bg-dark ">
+        <div class="container text-light text-center">
+            <div class="pt-2"></div>
+            <p class="display-5 mb-3">Reto #8</p>
+            <div class="pt-3"></div>
+        </div>
+    </header>
+
+
+    <section>
+
+
+        <div class="container-fluid text-center">
+            <h1 class="mt-4">Registro de Datos</h1>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-6">
+                    <form id="formulario">
+                        <div class="form-group ">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text " class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" class="form-control" id="apellido" name="apellido" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nota1">Nota 1:</label>
+                            <input type="number" class="form-control" id="nota1" name="nota1" min="0" max="100"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nota2">Nota 2:</label>
+                            <input type="number" class="form-control" id="nota2" name="nota2" min="0" max="100"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nota3">Nota 3:</label>
+                            <input type="number" class="form-control" id="nota3" name="nota3" min="0" max="100"
+                                required>
+                        </div>
+                        <div class="pt-4"></div>
+                        <button type="submit" class="btn btn-primary btn-block">Guardar</button>
+                    </form>
+
+                </div>
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-6 mt-4">
+
+                            <label for="selector">Seleccionar por nombre:</label>
+                            <select id="selector" class="form-control">
+                                <option value="">Seleccione un nombre</option>
+                            </select>
+
+                            <table id="tablaDatos" class="table mt-4" style="display: none;">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th>Nombre</th>
+                                        <th>Apellido</th>
+                                        <th>Nota 1</th>
+                                        <th>Nota 2</th>
+                                        <th>Nota 3</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                            <div class="pt-3"></div>
+                            <div><a href="landing.html"><button class="indice">Ir al indice</button></a></div>
+                            <div class="pt-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Información de contacto: rrodriguezmo@ucenfotec.ac.cr</p>
+                </div>
+                <div class="col-md-6">
+                    <p>&copy; 2024 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/reto8.js"></script>
+    <!-- CDN carga la parte interactiva de componentes -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

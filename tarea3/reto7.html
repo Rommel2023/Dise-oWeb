@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>reto 7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reto7.css">
+
+    <!-- libreria SWEETALERT-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- interactividad Lottie JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+
+    <!-- libreria Lottie JS-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
+    <link href="img/favicon.png" rel="icon">
+
+</head>
+
+<body>
+    <header class="bg-dark">
+        <div class="container-fluid">
+            <div class="container text-center">
+                <div class="pt-2"></div>
+                <img src="img/pngwing.com.png" alt="logo" class="logo">
+            </div>
+            <div class="row justify-content-center align-items-center text-light">
+                <div class="col-auto">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Inicio <span class="sr-only"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Acerca</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Esta Semana</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="pt-3">
+
+    </div>
+    </div>
+    <section class="container-fluid banner">
+        <div class="container-fluid text-center">
+            <div class="ajuste fondocolor">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="p-3">
+                            <p class="display-5 titulo">Reserva una mesa </p>
+                            <div class="pt-5"></div>
+                            <div class=" container-fluid ">
+                                <p class="texto2">En la parte inferior de esta página, encontrarás una imagen
+                                    interactiva que muestra todas nuestras mesas disponibles para reservar. Simplemente
+                                    desplázate hacia abajo y encontrarás una representación visual de nuestro espacio,
+                                    con cada mesa claramente marcada</p>
+                            </div>
+                            <div class="pt-3"></div>
+                            <div><a href="landing.html"><button class="indice">Ir al indice</button></a></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="text-center pt-5">
+                            <!-- carga de la imagen mapeada con ID del mapa -->
+                            <img src="img/MESAS.jpg" usemap="#image-map" class="img-fluid shadow img-thumbnail"
+                                alt="Mesas reservables">
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-5">
+
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <footer class="text-center bg-dark text-white">
+        <div class="pt-5"></div>
+        <div class="pt-5"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Información de contacto: rrodriguezmo@ucenfotec.ac.cr</p>
+                </div>
+                <div class="col-md-6">
+                    <p>&copy; 2024 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <map name="image-map">
+        <area alt="Mesa 1" title="Mesa 1" coords="212,497,77" id="r1" shape="circle" class="cursor">
+        <area alt="Mesa 2" title="Mesa 2" coords="732,485,77" id="r2" shape="circle" class="cursor">
+        <area alt="Mesa 3" title="Mesa 3" coords="620,85,776,330" id="r3" shape="rect" class="cursor">
+        <area alt="Mesa 4" title="Mesa 4" coords="261,200,68" id="r4" shape="circle" class="cursor">
+    </map>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+    <!-- libreria SWEETALERT-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- interactividad Lottie JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+
+    <!-- libreria Lottie JS-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+    <script src="/js/login.js"></script>
+
+    </section>
+
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+
+
+<!-- interactividad Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- libreria desplegables -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+<script src="js/reto7.js"></script>
+
+</html>

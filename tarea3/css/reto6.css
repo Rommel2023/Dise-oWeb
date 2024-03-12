@@ -1,0 +1,80 @@
+.img img {
+    width: 60%;
+}
+
+.img {
+    padding-top: 5px;
+}
+
+.banner {
+    background-image: url("/img/vansSK.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btncirculos {
+    padding: 15px;
+    border: none;
+    /*distancia entre ellos*/
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.img img {
+    width: 60%;
+}
+
+.img {
+    padding-top: 20px;
+}
+
+.img-fluid {
+    width: 45%;
+
+}
+
+footer {
+    margin-top: 70px;
+    background-color: #F4F4F4;
+    height: 150px;
+}
+
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.indice {
+    background-color: #6c757d;
+    /* Color de fondo */
+    color: #ffffff;
+    /* Color de texto */
+    border: 2px solid #6c757d;
+    /* Borde */
+    border-radius: 30px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    /* Espaciado interior */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transición suave */
+}
+
+.indice:hover {
+    background-color: #495057;
+    /* Cambio de color de fondo al pasar el cursor */
+    color: #ffffff;
+    /* Cambio de color de texto al pasar el cursor */
+}
